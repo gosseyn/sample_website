@@ -4,15 +4,18 @@
 	<head>
 		<title>HTML tags</title>
 		<meta charset="utf-8" lang="en">
+		<link rel="stylesheet" href="css/main.css">
 	</head>
+	
 	<body>
-	  <div>
-	    <a href="index.html">Home</a>
-	    <a href="tags.html">HTML tags</a>
-	    <a href="moby_dick.html">Moby Dick</a>
-	    
-	  </div>
+
+	  <div id="main-nav"class="nav-menu">
+	    <a href="index.html" style="text-decoration: none; color: #00f;">Home</a>
+	    <a href="tags.html" class="nav-spacing">HTML tags</a>
+	    <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
+          </div>
 	  
+            
 	  <h1>Important HTML tags</h1>
 	  <a href="https://www.flickr.com/photos/jdhancock/3814523970" target="_blanck" rel="noopener">
 	    <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
@@ -37,49 +40,64 @@
 		<th>Tag</th><th>Name</th><th>Purpose</th>
 	      </tr>
 	      <tr>
-		<td><span><code>h1</code>&ndash;<code>h6</code></span></td> <!-- Essais de span au milieu de "td" -->
-		<td>Headings</td>
-		<td>include a heading (levels 1&ndash;6)</td>
+		<td class="cell-tab"><span><code>h1</code>&ndash;<code>h6</code></span></td> <!-- Essais de span au milieu de "td" -->
+		<td class="cell-tab">Headings</td>
+		<td class="cell-tab">include a heading (levels 1&ndash;6)</td>
 	      </tr>
 	      <tr>
-		<td><code>p</code></td>
-		<td>paragraph</td>
-		<td>include a paragraph of text</td>
+		<td class="cell-tab"><code>p</code></td>
+		<td class="cell-tab">paragraph</td>
+		<td class="cell-tab">include a paragraph of text</td>
 	      </tr>
 		  <tr>
-		    <td><code>table</code></td>
-		    <td>table</td>
-		    <td>include a table</td>
+		    <td class="cell-tab"><code>table</code></td>
+		    <td class="cell-tab">table</td>
+		    <td class="cell-tab">include a table</td>
 		  </tr>
 		  <tr>
-		    <td><code>tr</code></td>
-		    <td>table row</td>
-		    <td>include a row of data</td>
+		    <td class="cell-tab"><code>tr</code></td>
+		    <td class="cell-tab">table row</td>
+		    <td class="cell-tab">include a row of data</td>
 		  </tr>
 	      <tr>
-		<td><code>th</code></td>
-		<td>table header</td>
-		<td> make a table header</td>
+		<td class="cell-tab"><code>th</code></td>
+		<td class="cell-tab">table header</td>
+		<td class="cell-tab"> make a table header</td>
 		  </tr>
 	      <tr>
-		<td><code>td</code></td>
-		<td>table data</td>
-		    <td>include a table data cell</td>
+		<td class="cell-tab"><code>td</code></td>
+		<td class="cell-tab">table data</td>
+		    <td class="cell-tab">include a table data cell</td>
 	      </tr>
 	      <tr>
-		    <td><code>ol</code></td>
-		    <td>ordered list</td>
-		    <td>make a numbered list</td>
+		    <td class="cell-tab"><code>ol</code></td>
+		    <td class="cell-tab">ordered list</td>
+		    <td class="cell-tab">make a numbered list</td>
 	      </tr>
 		   <tr>
-		     <td><code>ul</code></td>
-		     <td>unordered list</td>
-		     <td>make an unnumbered list</td>
+		     <td class="cell-tab"><code>ul</code></td>
+		     <td class="cell-tab">unordered list</td>
+		     <td class="cell-tab">make an unnumbered list</td>
 		   </tr>
 		    <tr>
-		      <td><code>li</code></td>
-		      <td>list element</td>
-		    <td>add an item to a list</td>
+		      <td class="cell-tab"><code>li</code></td>
+		      <td class="cell-tab">list element</td>
+		    <td class="cell-tab">add an item to a list</td>
+                    </tr>
+		    <tr>
+		      <td class="cell-tab"><code>div</code></td>
+		      <td class="cell-tab">Division</td>
+		    <td class="cell-tab">Defines a division or a section in an HTML document</td>
+                    </tr>
+		    <tr>
+		      <td class="cell-tab"><code>header</code></td>
+		      <td class="cell-tab">header element</td>
+		    <td class="cell-tab">Container for introductory content or links</td>
+                    </tr>
+		    <tr>
+		      <td class="cell-tab"><code>blocquote</code></td>
+		      <td class="cell-tab">blocquote tag</td>
+		    <td class="cell-tab">Conainer for a quoted section</td>
                     </tr>
 	    </table>
 	  </div>
@@ -99,50 +117,99 @@
 		    <th>Result</th>
 		  </tr>
 		  <tr>
-		    <td><code>em</code></td>
-		    <td>emphasized</td>
-		    <td>make emphasized text</td>
-		    <td><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
-		    <td><em>technical sophistication</em></td>
+		    <td class="cell-tab"><code>em</code></td>
+		    <td class="cell-tab">emphasized</td>
+		    <td class="cell-tab">make emphasized text</td>
+		    <td class="cell-tab"><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
+		    <td class="cell-tab"><em>technical sophistication</em></td>
 		  </tr>
 		  <tr>
-		    <td><code>strong</code></td>
-		    <td>strong</td>
-		    <td>make strong text</td>
-		    <td><code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code></td>
-		    <td><strong> at least a billion people</strong></td>
+		    <td class="cell-tab"><code>strong</code></td>
+		    <td class="cell-tab">strong</td>
+		    <td class="cell-tab">make strong text</td>
+		    <td class="cell-tab"><code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code></td>
+		    <td class="cell-tab"><strong> at least a billion people</strong></td>
 		  </tr>
 		  <tr>
-		    <td><code>a</code></td>
-		    <td>anchor</td>
-		    <td>make hyperlink</td>
-		    <td>
+		    <td class="cell-tab"><code>a</code></td>
+		    <td class="cell-tab">anchor</td>
+		    <td class="cell-tab">make hyperlink</td>
+		    <td class="cell-tab">
 		      <code>
 			&lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
 		      </code>
 		    </td>
-		    <td><a href="https://learnenough.com/">Learn Enough</a>
+		    <td class="cell-tab"><a href="https://learnenough.com/">Learn Enough</a>
 		    </td>
 		  </tr>
 		  <tr>
-		    <td><code>img</code></td>
-		    <td>image</td>
-		    <td>include an image</td>
-		    <td>
+		    <td class="cell-tab"><code>img</code></td>
+		    <td class="cell-tab">image</td>
+		    <td class="cell-tab">include an image</td>
+		    <td class="cell-tab">
 		      <code>
 			&lt;img src="https://bit.ly/1MZAFuQ alt="Michael Hartl"&gt;
 		      </code>
 		    </td>
-		    <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
+		    <td class="cell-tab"><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
 		  </tr>
 		  <tr>
-		    <td><code>&LT;code&gt;</code></td>
-		    <td>code</td>
-		    <td>make fixed width font text</td>
-		    <td><code>&lt;code&gt;tr&lt;/code&gt;</code></td>
-		    <td><code>tr</code></td>
+		    <td class="cell-tab"><code>&LT;code&gt;</code></td>
+		    <td class="cell-tab">code</td>
+		    <td class="cell-tab">make fixed width font text</td>
+		    <td class="cell-tab"><code>&lt;code&gt;tr&lt;/code&gt;</code></td>
+		    <td class="cell-tab"><code>tr</code></td>
+		  </tr>
+		   <tr>
+		    <td class="cell-tab"><code>&LT;br&gt;</code></td>
+		    <td class="cell-tab">line BReak</td>
+		    <td class="cell-tab">Inserts a single line break</td>
+		    <td class="cell-tab"><code>&lt;br&gt;</code></td>
+		    <td class="cell-tab">Inserts a single line break</td>
+		   </tr>
+		   <tr>
+		    <td class="cell-tab"><code>&LT;span&gt;</code></td>
+		    <td class="cell-tab">span element</td>
+		    <td class="cell-tab">container used to mark up</td>
+		    <td class="cell-tab"><code>&lt;span style="color: red;"&gt;texte&lt;/span&gt; en rouge</code></td>
+		    <td class="cell-tab"><span style="color: red;"> texte </span>en rouge</td>
 		  </tr>
 		</table>
-		</div>
+	  </div>
+
+	  <header>
+	    <h2>Document tags</h2>
+	    </header>
+	  <div>
+	    <table>
+	      <tr>
+		<th>Tag</th><th>Name</th><th>Purpose</th>
+		 <tr>
+		   <td class="cell-tab"><code>html</code></td>
+		   <td class="cell-tab">html tag</td>
+		   <td class="cell-tab">Root of the HTML document</td>
+                 </tr>
+              <tr>
+		<td class="cell-tab"><code>head</code></td>
+		<td class="cell-tab">head tag</td>
+		<td class="cell-tab">Container for metadata</td>
+              </tr>
+	      <tr>
+		<td class="cell-tab"><code>body</code></td>
+		<td class="cell-tab">body tag</td>
+		<td class="cell-tab">Container for all the content of the HTML document</td>
+              </tr>
+	      <tr>
+		<td class="cell-tab"><code>title</code></td>
+		<td class="cell-tab">title tag</td>
+		<td class="cell-tab">Defines the title of the document</td>
+              </tr>
+	      <tr>
+		<td class="cell-tab"><code>meta</code></td>
+		<td class="cell-tab">meta tag</td>
+		<td class="cell-tab">Defines meta data about the HTML document</td>
+              </tr>
+	      </table>
+	    </div>
 	</body>
 </html>

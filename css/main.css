@@ -1,0 +1,53 @@
+
+.nav-spacing {
+    margin: 0 0 0 10px;
+    text-decoration: none;
+    color: 	      #00f;
+}
+
+.nav-menu {
+    text-align: right;
+}
+
+.image-link {
+    text-decoration: none;
+}
+
+.cell-tab {
+    padding: 10px;
+}
+
+.title-header {
+    text-align: center;
+     margin: 0 0 80px;
+}
+
+.image-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.book-cover {
+    width: 500px;
+    margin: 20px;
+    padding: 30px;
+    background-color: #fafafa
+}
+
+.icon-image {
+    height: 200px;
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+.citation {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.lettrine {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f00;
+}
